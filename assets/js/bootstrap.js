@@ -1684,7 +1684,6 @@
         const elem = toggleList[i];
         const selector = getSelectorFromElement(elem);
         const filterElement = SelectorEngine.find(selector).filter(foundElem => foundElem === this._element);
-
         if (selector !== null && filterElement.length) {
           this._selector = selector;
 

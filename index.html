@@ -13,33 +13,40 @@
     <script type="application/javascript" src="./assets/js/bootstrap.min.js"></script>
     <script type="application/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
   </head>
+
   <body>
-    <div class="container bg-dark">
+    <header class="container-fluid bg-black text-center">
       <div class="row">
-        <div class="col col-10 col-md-12 a">
-            <img src="./images/Origlia-team.png" alt="Team Origlia Kick boxing, K1 Rules, Full Contact"/>
+        <div class="col-md-12">
+          <img src="./images/Logo_fr_team_origlia.png" class="img-fluid " alt="Team Origlia Kick boxing K1 Rules Full contact">
         </div>
-        <div class="col col-2  col-md-12 b">2 of 2</div>
       </div>
-      <div class="row">
-        <div class="col c">1 of 3</div>
-      </div>
-      <div class="row">
-        <div class="col d">
-          <div class="row">
-            <div class="col e">1 of 3</div>
-          </div>
-          <div class="row">
-            <div class="col f">1 of 3</div>
-          </div>
-        </div>
+    </header>
+
+    <div id="nav-placeholder">
+    </div>
+   
+   
+  <div class="row">
+    <div class="col-md-12 imgbox">
+      <img src="./images/box-sport-men-training-text.png" class="img-fluid" alt="Team Origlia Kick boxing K1 Rules Full contact">
+  </div>
+    <div class="col-md-6">
+      <div class="h-100 p-5 bg-light border rounded-3">
+        <h2>Add borders</h2>
+        <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+        <button class="btn btn-outline-secondary" type="button">Example button</button>
       </div>
     </div>
+  <div class="col-md-12">
+    <img src="./images/Kick-boxing-min.png" class="img-fluid" alt="Team Origlia Kick boxing K1 Rules Full contact">
+</div>
+</div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<script>
+  $(function(){
+    $("#nav-placeholder").load("nav.html");
+  });
+  </script>
+   
 </html>

@@ -1,0 +1,12 @@
+.navbar{
+    background: linear-gradient(to bottom, black, rgb(12, 11, 11)) !important;
+}
+
+.imgbox{
+    height: 600px;
+}
+
+.btn-outline-success{
+    color: white;
+    border:1px solid white;
+}
